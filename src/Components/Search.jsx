@@ -11,7 +11,7 @@ const Search = () => {
 
 
             <label htmlFor="" className="form-label">Id</label>
-            <input type="text" className="form-control" name='title'/>
+            <input type="text" className="form-control"/>
 
           </div>
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
