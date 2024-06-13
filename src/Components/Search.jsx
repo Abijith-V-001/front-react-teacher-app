@@ -5,7 +5,7 @@ import axios from 'axios'
 const Search = () => {
     const [data, changeData] = useState(
         {
-            "name": ""
+            "id": ""
         }
     )
     const [teacher, changeTeacher] = useState([])
@@ -45,7 +45,7 @@ const Search = () => {
 
 
                         <label htmlFor="" className="form-label">Id</label>
-                        <input type="text" className="form-control" name='name' value={data.name} onChange={inputHandler} />
+                        <input type="text" className="form-control" name='id' value={data.id} onChange={inputHandler} />
 
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
